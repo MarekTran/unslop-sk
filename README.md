@@ -25,7 +25,7 @@ Skill je inšpirovaný repozitárom [PetrHula/unslop-cs](https://github.com/Petr
 
 Skill sa spúšťa na požiadanie, nie pri každom písaní. Stačí napísať napríklad „skontroluj, či to neznie ako AI“ alebo „prepíš to ľudsky“ a vložiť text.
 
-- **Kontrola:** tabuľka nálezov: kde v texte sú (riadok súboru, alebo odsek a veta), pôvodné znenie, návrh úpravy, priorita P0 – P2 a dôvod. Text nemení.
+- **Kontrola:** tabuľka nálezov s pozíciou v texte (riadok súboru, alebo odsek a veta), pôvodným znením, návrhom úpravy, prioritou P0 – P2 a dôvodom. Text nemení.
 - **Prepis:** rovnaká tabuľka zmien a pod ňou opravená verzia.
 - **Zápis opráv:** kontrola aj prepis sa končia ponukou, kam opravy zapísať. Bez súhlasu skill nič nezapíše.
 - **Úprava súboru:** opraví text priamo v súbore, s čo najmenšími zásahmi.

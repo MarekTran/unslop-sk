@@ -1,0 +1,13 @@
+{
+  "name": "unslop-sk",
+  "description": "Poistka proti AI slopu v slovenskom texte: slová, rytmus a štruktúra, štyri režimy, profily registrov. Writing guardrail against AI slop in Slovak.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Marek Tran",
+    "url": "https://github.com/MarekTran"
+  },
+  "homepage": "https://github.com/MarekTran/unslop-sk",
+  "repository": "https://github.com/MarekTran/unslop-sk",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "slovak", "slovencina", "style", "ai-slop", "prose"]
+}

@@ -1,0 +1,10 @@
+.DS_Store
+*.zip
+
+# model UDPipe (CC BY-NC-SA) do repozitára nepatrí
+*.udpipe
+__pycache__/
+
+# lokálne výsledky behov evalov nepatria do hlavnej vetvy
+tools/evaly/vysledky/
+tools/evaly/cache/

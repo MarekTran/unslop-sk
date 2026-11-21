@@ -1,0 +1,29 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "unslop-sk",
+  "owner": {
+    "name": "Marek Tran",
+    "url": "https://github.com/MarekTran"
+  },
+  "description": "Skill proti AI slopu v slovenskom texte.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "unslop-sk",
+      "displayName": "unslop-sk",
+      "description": "Kontrola a prepis slovenského textu proti AI slopu na požiadanie. Pracuje na troch úrovniach (slová, rytmus viet, štruktúra) v režimoch kontrola, prepis, úprava súboru a písanie (na výzvu iného skillu) s profilmi prísnosti podľa registra.",
+      "version": "0.1.0",
+      "source": "./plugins/unslop-sk",
+      "author": {
+        "name": "Marek Tran",
+        "url": "https://github.com/MarekTran"
+      },
+      "homepage": "https://github.com/MarekTran/unslop-sk",
+      "repository": "https://github.com/MarekTran/unslop-sk",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["writing", "editing", "slovak", "style", "ai-slop", "prose"],
+      "tags": ["writing", "content", "slovak", "quality"]
+    }
+  ]
+}

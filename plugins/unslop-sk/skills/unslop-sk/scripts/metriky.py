@@ -1766,6 +1766,8 @@ class Analyza:
             w = m.group(0)
             if w[0].isupper() or any(a <= m.start() < b for a, b, _ in stopy):
                 continue  # mená a názvy (Dvořák, Jiří) sa nehlásia
+            if len(w) == 1:
+                continue  # samotné písmeno je zmienka o písmene („písmená ě, ř, ů“)
             pred = re.search(r"([^\W\d_]+)[ \u00a0]$", self.m[max(0, m.start() - 40):m.start()])
             if (pred and pred.group(1)[0].isupper()) or RE_ADJ_Z_MENA.search(w):
                 continue  # český názov („Mladé tvorbě“) alebo prídavné meno z mena

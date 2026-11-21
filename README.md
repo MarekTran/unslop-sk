@@ -4,7 +4,7 @@ Redaktor pre slovenské texty písané s pomocou AI. Nájde miesta, ktoré znej�
 
 Skill pre Claude a ďalších agentov, ktorí čítajú formát `SKILL.md` (Claude Code, Claude Desktop, Claude.ai, Cursor, Codex).
 
-Inšpirované repozitárom [PetrHula/unslop-cs](https://github.com/PetrHula/unslop-cs), z ktorého je táto slovenská verzia adaptovaná.
+Skill je inšpirovaný repozitárom [PetrHula/unslop-cs](https://github.com/PetrHula/unslop-cs) a je jeho slovenskou adaptáciou.
 
 *English: an editor for Slovak prose written with AI. Flags and fixes AI tells at the word, rhythm and structure levels, leaves human text alone, never invents facts. Slovak-language instructions.*
 
@@ -25,17 +25,17 @@ Inšpirované repozitárom [PetrHula/unslop-cs](https://github.com/PetrHula/unsl
 
 Skill sa spúšťa na požiadanie, nie pri každom písaní. Stačí napísať napríklad „skontroluj, či to neznie ako AI“ alebo „prepíš to ľudsky“ a vložiť text.
 
-- **Kontrola** – tabuľka nálezov: kde v texte sú (riadok súboru, alebo odsek a veta), pôvodné znenie, návrh úpravy, priorita P0 – P2 a dôvod. Text nemení.
-- **Prepis** – rovnaká tabuľka zmien a pod ňou opravená verzia.
-- **Zápis opráv** – kontrola aj prepis sa končia ponukou, kam opravy zapísať. Bez súhlasu skill nič nezapíše.
-- **Úprava súboru** – opraví text priamo v súbore, s čo najmenšími zásahmi.
-- **Písanie** – iný skill (napríklad na e-maily alebo články) ho môže požiadať, aby jeho pravidlá uplatňoval potichu pri písaní.
+- **Kontrola:** tabuľka nálezov: kde v texte sú (riadok súboru, alebo odsek a veta), pôvodné znenie, návrh úpravy, priorita P0 – P2 a dôvod. Text nemení.
+- **Prepis:** rovnaká tabuľka zmien a pod ňou opravená verzia.
+- **Zápis opráv:** kontrola aj prepis sa končia ponukou, kam opravy zapísať. Bez súhlasu skill nič nezapíše.
+- **Úprava súboru:** opraví text priamo v súbore, s čo najmenšími zásahmi.
+- **Písanie:** iný skill (napríklad na e-maily alebo články) ho môže požiadať, aby jeho pravidlá uplatňoval potichu pri písaní.
 
 Prísnosť sa riadi registrom: čo prekáža v odbornom texte, môže byť v poriadku na LinkedIne. Podporované profily sú sociálne siete, blog a článok, e-mail, dokumentácia, odborný text a prezentácia.
 
-## Čo hľadá
+## Hľadané vzorce
 
-Od najsilnejších vzorcov. Body 1 – 8 sú nálezom aj raz, slabé signály až v zhluku.
+Vzorce sú zoradené od najsilnejších. Body 1 – 8 sú nálezom aj raz, slabé signály až v zhluku.
 
 1. **Zvyšky chatu a vymyslené autority:** „Dúfam, že vám to pomôže!“, nevyplnené „[meno]“, „odborníci sa zhodujú“ bez zdroja.
 2. **Tvrdenie bez faktu:** „výrazne zrýchľuje“, „používatelia ju milujú“ bez čísla, mena alebo mechanizmu.

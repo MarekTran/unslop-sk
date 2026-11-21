@@ -447,6 +447,10 @@ class _Zaklad:
         v = self.analyzuj("Básne publikoval v Mladé tvorbě a kódex kúpil břevnovský kláštor.")
         self.assertFalse(ma(v, "bohemizmy", "ceska-stopa", "info"))
 
+    def test_samotne_ceske_pismeno_sa_nehlasi(self):
+        v = self.analyzuj("Slovenčina nemá písmená ě, ř a ů, čeština ich má.")
+        self.assertFalse(ma(v, "bohemizmy", "ceska-stopa", "info"))
+
     def test_ceska_citacia_len_info(self):
         v = self.analyzuj("Začal vetou „Protože dům není stroj, musí se v něm dát bydlet.“ a "
                           "potom ukazoval pôdorysy.")
